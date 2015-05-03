@@ -7,13 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		371C28251AF5A4120073F378 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 371C28241AF5A4120073F378 /* main.m */; };
+		371C28251AF5A4120073F378 /* main.mm in Sources */ = {isa = PBXBuildFile; fileRef = 371C28241AF5A4120073F378 /* main.mm */; };
 		371C28281AF5A4120073F378 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 371C28271AF5A4120073F378 /* AppDelegate.m */; };
-		371C282B1AF5A4120073F378 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 371C282A1AF5A4120073F378 /* ViewController.m */; };
+		371C282B1AF5A4120073F378 /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 371C282A1AF5A4120073F378 /* ViewController.mm */; };
 		371C282E1AF5A4120073F378 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 371C282C1AF5A4120073F378 /* Main.storyboard */; };
 		371C28301AF5A4120073F378 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 371C282F1AF5A4120073F378 /* Images.xcassets */; };
-		371C28331AF5A4120073F378 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 371C28311AF5A4120073F378 /* LaunchScreen.xib */; };
 		371C283F1AF5A4120073F378 /* ImageCheckerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 371C283E1AF5A4120073F378 /* ImageCheckerTests.m */; };
+		371C287C1AF5A5850073F378 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 371C287A1AF5A5850073F378 /* Default.png */; };
+		371C287D1AF5A5850073F378 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 371C287A1AF5A5850073F378 /* Default.png */; };
+		371C287E1AF5A5850073F378 /* lena.png in Resources */ = {isa = PBXBuildFile; fileRef = 371C287B1AF5A5850073F378 /* lena.png */; };
+		371C287F1AF5A5850073F378 /* lena.png in Resources */ = {isa = PBXBuildFile; fileRef = 371C287B1AF5A5850073F378 /* lena.png */; };
+		371C28821AF5A5BB0073F378 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 371C28801AF5A5BB0073F378 /* Default.png */; };
+		371C28831AF5A5BB0073F378 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 371C28801AF5A5BB0073F378 /* Default.png */; };
+		371C28841AF5A5BB0073F378 /* lena.png in Resources */ = {isa = PBXBuildFile; fileRef = 371C28811AF5A5BB0073F378 /* lena.png */; };
+		371C28851AF5A5BB0073F378 /* lena.png in Resources */ = {isa = PBXBuildFile; fileRef = 371C28811AF5A5BB0073F378 /* lena.png */; };
+		371C28881AF5A6580073F378 /* opencv2 in Frameworks */ = {isa = PBXBuildFile; fileRef = 371C28871AF5A6580073F378 /* opencv2 */; };
+		371C288A1AF5A6620073F378 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 371C28891AF5A6620073F378 /* UIKit.framework */; };
+		371C288C1AF5A6680073F378 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 371C288B1AF5A6680073F378 /* Foundation.framework */; };
+		371C288E1AF5A66E0073F378 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 371C288D1AF5A66E0073F378 /* CoreGraphics.framework */; };
+		3733013C1AF5C0DF00409512 /* Storyboard.iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3733013F1AF5C0DF00409512 /* Storyboard.iPhone.storyboard */; };
+		3733013D1AF5C0DF00409512 /* Storyboard.iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3733013F1AF5C0DF00409512 /* Storyboard.iPhone.storyboard */; };
+		373301461AF6AA9000409512 /* ImageManipulation.mm in Sources */ = {isa = PBXBuildFile; fileRef = 373301451AF6AA9000409512 /* ImageManipulation.mm */; };
+		373301471AF6AA9000409512 /* ImageManipulation.mm in Sources */ = {isa = PBXBuildFile; fileRef = 373301451AF6AA9000409512 /* ImageManipulation.mm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,17 +44,28 @@
 /* Begin PBXFileReference section */
 		371C281F1AF5A4120073F378 /* ImageChecker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageChecker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		371C28231AF5A4120073F378 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		371C28241AF5A4120073F378 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		371C28241AF5A4120073F378 /* main.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = main.mm; sourceTree = "<group>"; };
 		371C28261AF5A4120073F378 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		371C28271AF5A4120073F378 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		371C28291AF5A4120073F378 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		371C282A1AF5A4120073F378 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		371C28291AF5A4120073F378 /* ViewController.hh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ViewController.hh; sourceTree = "<group>"; };
+		371C282A1AF5A4120073F378 /* ViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ViewController.mm; sourceTree = "<group>"; };
 		371C282D1AF5A4120073F378 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		371C282F1AF5A4120073F378 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		371C28321AF5A4120073F378 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		371C28381AF5A4120073F378 /* ImageCheckerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImageCheckerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		371C283D1AF5A4120073F378 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		371C283E1AF5A4120073F378 /* ImageCheckerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageCheckerTests.m; sourceTree = "<group>"; };
+		371C287A1AF5A5850073F378 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		371C287B1AF5A5850073F378 /* lena.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lena.png; sourceTree = "<group>"; };
+		371C28801AF5A5BB0073F378 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		371C28811AF5A5BB0073F378 /* lena.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lena.png; sourceTree = "<group>"; };
+		371C28871AF5A6580073F378 /* opencv2 */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = opencv2; path = ../../../../Softwares/opencv2.framework/Versions/A/opencv2; sourceTree = "<group>"; };
+		371C28891AF5A6620073F378 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		371C288B1AF5A6680073F378 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		371C288D1AF5A66E0073F378 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		371C288F1AF5A69E0073F378 /* ImageChecker-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ImageChecker-Prefix.pch"; sourceTree = "<group>"; };
+		3733013E1AF5C0DF00409512 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Storyboard.iPhone.storyboard; sourceTree = "<group>"; };
+		373301441AF6AA9000409512 /* ImageManipulation.hh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ImageManipulation.hh; sourceTree = "<group>"; };
+		373301451AF6AA9000409512 /* ImageManipulation.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ImageManipulation.mm; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +73,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				371C288E1AF5A66E0073F378 /* CoreGraphics.framework in Frameworks */,
+				371C288C1AF5A6680073F378 /* Foundation.framework in Frameworks */,
+				371C288A1AF5A6620073F378 /* UIKit.framework in Frameworks */,
+				371C28881AF5A6580073F378 /* opencv2 in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +93,10 @@
 		371C28161AF5A4120073F378 = {
 			isa = PBXGroup;
 			children = (
+				371C288D1AF5A66E0073F378 /* CoreGraphics.framework */,
+				371C288B1AF5A6680073F378 /* Foundation.framework */,
+				371C28891AF5A6620073F378 /* UIKit.framework */,
+				371C28871AF5A6580073F378 /* opencv2 */,
 				371C28211AF5A4120073F378 /* ImageChecker */,
 				371C283B1AF5A4120073F378 /* ImageCheckerTests */,
 				371C28201AF5A4120073F378 /* Products */,
@@ -83,11 +117,13 @@
 			children = (
 				371C28261AF5A4120073F378 /* AppDelegate.h */,
 				371C28271AF5A4120073F378 /* AppDelegate.m */,
-				371C28291AF5A4120073F378 /* ViewController.h */,
-				371C282A1AF5A4120073F378 /* ViewController.m */,
+				371C28291AF5A4120073F378 /* ViewController.hh */,
+				373301441AF6AA9000409512 /* ImageManipulation.hh */,
+				373301451AF6AA9000409512 /* ImageManipulation.mm */,
+				371C282A1AF5A4120073F378 /* ViewController.mm */,
+				3733013F1AF5C0DF00409512 /* Storyboard.iPhone.storyboard */,
 				371C282C1AF5A4120073F378 /* Main.storyboard */,
 				371C282F1AF5A4120073F378 /* Images.xcassets */,
-				371C28311AF5A4120073F378 /* LaunchScreen.xib */,
 				371C28221AF5A4120073F378 /* Supporting Files */,
 			);
 			path = ImageChecker;
@@ -96,8 +132,11 @@
 		371C28221AF5A4120073F378 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				371C287A1AF5A5850073F378 /* Default.png */,
 				371C28231AF5A4120073F378 /* Info.plist */,
-				371C28241AF5A4120073F378 /* main.m */,
+				371C287B1AF5A5850073F378 /* lena.png */,
+				371C28241AF5A4120073F378 /* main.mm */,
+				371C288F1AF5A69E0073F378 /* ImageChecker-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -114,6 +153,8 @@
 		371C283C1AF5A4120073F378 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				371C28801AF5A5BB0073F378 /* Default.png */,
+				371C28811AF5A5BB0073F378 /* lena.png */,
 				371C283D1AF5A4120073F378 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -200,8 +241,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				371C282E1AF5A4120073F378 /* Main.storyboard in Resources */,
-				371C28331AF5A4120073F378 /* LaunchScreen.xib in Resources */,
+				371C28821AF5A5BB0073F378 /* Default.png in Resources */,
+				371C287E1AF5A5850073F378 /* lena.png in Resources */,
 				371C28301AF5A4120073F378 /* Images.xcassets in Resources */,
+				3733013C1AF5C0DF00409512 /* Storyboard.iPhone.storyboard in Resources */,
+				371C28841AF5A5BB0073F378 /* lena.png in Resources */,
+				371C287C1AF5A5850073F378 /* Default.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -209,6 +254,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3733013D1AF5C0DF00409512 /* Storyboard.iPhone.storyboard in Resources */,
+				371C287D1AF5A5850073F378 /* Default.png in Resources */,
+				371C28831AF5A5BB0073F378 /* Default.png in Resources */,
+				371C287F1AF5A5850073F378 /* lena.png in Resources */,
+				371C28851AF5A5BB0073F378 /* lena.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,9 +269,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				371C282B1AF5A4120073F378 /* ViewController.m in Sources */,
+				371C282B1AF5A4120073F378 /* ViewController.mm in Sources */,
 				371C28281AF5A4120073F378 /* AppDelegate.m in Sources */,
-				371C28251AF5A4120073F378 /* main.m in Sources */,
+				373301461AF6AA9000409512 /* ImageManipulation.mm in Sources */,
+				371C28251AF5A4120073F378 /* main.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -229,6 +280,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				373301471AF6AA9000409512 /* ImageManipulation.mm in Sources */,
 				371C283F1AF5A4120073F378 /* ImageCheckerTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -252,12 +304,12 @@
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		371C28311AF5A4120073F378 /* LaunchScreen.xib */ = {
+		3733013F1AF5C0DF00409512 /* Storyboard.iPhone.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				371C28321AF5A4120073F378 /* Base */,
+				3733013E1AF5C0DF00409512 /* Base */,
 			);
-			name = LaunchScreen.xib;
+			name = Storyboard.iPhone.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -266,7 +318,7 @@
 		371C28401AF5A4120073F378 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -299,7 +351,15 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					/opt/local/include,
+					"$(inherited)",
+				);
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LIBRARY_SEARCH_PATHS = (
+					/opt/local/lib,
+					"/Softwares/build/iPhoneSimulator-x86_64/lib/Release",
+				);
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -310,7 +370,7 @@
 		371C28411AF5A4120073F378 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -337,7 +397,15 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					/opt/local/include,
+					"$(inherited)",
+				);
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LIBRARY_SEARCH_PATHS = (
+					/opt/local/lib,
+					"/Softwares/build/iPhoneSimulator-x86_64/lib/Release",
+				);
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -351,6 +419,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ImageChecker/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/Softwares/opencv2.framework/Versions/A,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -361,6 +433,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ImageChecker/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/Softwares/opencv2.framework/Versions/A,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -418,6 +494,7 @@
 				371C28441AF5A4120073F378 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		371C28451AF5A4120073F378 /* Build configuration list for PBXNativeTarget "ImageCheckerTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +503,7 @@
 				371C28471AF5A4120073F378 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
